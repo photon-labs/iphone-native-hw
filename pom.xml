@@ -6,6 +6,14 @@
     <packaging>xcode</packaging>
     <name>PHR_iphone-native-hw</name>
     <version>1.0.0</version>
+    
+     <scm>
+        <connection>scm:git:git@github.com:phresco/iphone-native-hw.git</connection>
+        <developerConnection>scm:git:git@github.com:phresco/iphone-native-hw.git</developerConnection>
+        <url>https://github.com/phresco/iphone-native-hw</url>
+    </scm>
+    
+    
     <build>
         <sourceDirectory>/source</sourceDirectory>
         <plugins>
