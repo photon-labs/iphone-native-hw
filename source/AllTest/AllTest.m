@@ -1,14 +1,14 @@
 //
-//  HomeViewTest.m
-//  HomeViewTest
+//  AllTest.m
+//  AllTest
 //
-//  Created by Rojaramani on 14/05/12.
+//  Created by Administrator on 20/06/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "HomeViewTest.h"
+#import "AllTest.h"
 
-@implementation HomeViewTest
+@implementation AllTest
 
 - (void)setUp
 {
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in HomeViewTest");
+    STFail(@"Unit tests are not implemented yet in AllTest");
 }
 
 @end

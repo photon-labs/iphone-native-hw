@@ -1,13 +1,13 @@
 //
-//  HomeViewTest.h
-//  HomeViewTest
+//  AllTest.h
+//  AllTest
 //
-//  Created by Rojaramani on 14/05/12.
+//  Created by Administrator on 20/06/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface HomeViewTest : SenTestCase
+@interface AllTest : SenTestCase
 
 @end
