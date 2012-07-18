@@ -23,10 +23,6 @@
 		C389760715920C9B00426D92 /* AllTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C389760615920C9B00426D92 /* AllTest.m */; };
 		C3FFD8151589F01D00DEF961 /* ConfigurationReader.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FFD8141589F01D00DEF961 /* ConfigurationReader.m */; };
 		E88B0DCB152EF10F00780CAA /* phresco-env-config.xml in Resources */ = {isa = PBXBuildFile; fileRef = E88B0DCA152EF10F00780CAA /* phresco-env-config.xml */; };
-		EA3C917B1560DE6200402AE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		EA3C917C1560DE6200402AE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		EA3C918C1560DE9700402AE8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3C918A1560DE8300402AE8 /* SenTestingKit.framework */; };
-		EA3C91961560DFD600402AE8 /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3C91941560DFBC00402AE8 /* libxml2.2.7.3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +48,6 @@
 		C3FFD8131589F01D00DEF961 /* ConfigurationReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigurationReader.h; path = Classes/ConfigurationReader.h; sourceTree = SOURCE_ROOT; };
 		C3FFD8141589F01D00DEF961 /* ConfigurationReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfigurationReader.m; path = Classes/ConfigurationReader.m; sourceTree = SOURCE_ROOT; };
 		E88B0DCA152EF10F00780CAA /* phresco-env-config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "phresco-env-config.xml"; sourceTree = "<group>"; };
-		EA3C91781560DE6200402AE8 /* HomeViewTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeViewTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3C918A1560DE8300402AE8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		EA3C91941560DFBC00402AE8 /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -78,17 +73,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA3C91741560DE6200402AE8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA3C91961560DFD600402AE8 /* libxml2.2.7.3.dylib in Frameworks */,
-				EA3C918C1560DE9700402AE8 /* SenTestingKit.framework in Frameworks */,
-				EA3C917B1560DE6200402AE8 /* UIKit.framework in Frameworks */,
-				EA3C917C1560DE6200402AE8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -108,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* Phresco.app */,
-				EA3C91781560DE6200402AE8 /* HomeViewTest.octest */,
 				C38975FB15920C9B00426D92 /* AllTest.octest */,
 			);
 			name = Products;
@@ -250,24 +233,6 @@
 			productReference = C38975FB15920C9B00426D92 /* AllTest.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		EA3C91771560DE6200402AE8 /* HomeViewTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EA3C91871560DE6200402AE8 /* Build configuration list for PBXNativeTarget "HomeViewTest" */;
-			buildPhases = (
-				EA3C91731560DE6200402AE8 /* Sources */,
-				EA3C91741560DE6200402AE8 /* Frameworks */,
-				EA3C91751560DE6200402AE8 /* Resources */,
-				EA3C91761560DE6200402AE8 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HomeViewTest;
-			productName = HomeViewTest;
-			productReference = EA3C91781560DE6200402AE8 /* HomeViewTest.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -289,7 +254,6 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* HelloWorld */,
-				EA3C91771560DE6200402AE8 /* HomeViewTest */,
 				C38975FA15920C9B00426D92 /* AllTest */,
 			);
 		};
@@ -315,30 +279,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA3C91751560DE6200402AE8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		C38975F915920C9B00426D92 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-		EA3C91761560DE6200402AE8 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,13 +314,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C389760715920C9B00426D92 /* AllTest.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA3C91731560DE6200402AE8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,60 +463,6 @@
 			};
 			name = Release;
 		};
-		EA3C91881560DE6200402AE8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HomeViewTest/HomeViewTest-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				HEADER_SEARCH_PATHS = /usr/include/libxml2;
-				INFOPLIST_FILE = "HomeViewTest/HomeViewTest-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		EA3C91891560DE6200402AE8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HomeViewTest/HomeViewTest-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				HEADER_SEARCH_PATHS = /usr/include/libxml2;
-				INFOPLIST_FILE = "HomeViewTest/HomeViewTest-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -606,15 +489,6 @@
 			buildConfigurations = (
 				C389760915920C9B00426D92 /* Debug */,
 				C389760A15920C9B00426D92 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EA3C91871560DE6200402AE8 /* Build configuration list for PBXNativeTarget "HomeViewTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EA3C91881560DE6200402AE8 /* Debug */,
-				EA3C91891560DE6200402AE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
