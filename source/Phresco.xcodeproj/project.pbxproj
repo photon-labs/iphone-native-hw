@@ -25,6 +25,9 @@
 		E88B0DCB152EF10F00780CAA /* phresco-env-config.xml in Resources */ = {isa = PBXBuildFile; fileRef = E88B0DCA152EF10F00780CAA /* phresco-env-config.xml */; };
 		EAA6F00E15B93DD500C4C54B /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA6F00C15B93DD500C4C54B /* GDataXMLNode.m */; };
 		EAA6F00F15B93DD500C4C54B /* OCUnitToJUnitLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA6F00D15B93DD500C4C54B /* OCUnitToJUnitLogger.m */; };
+		EAA6F01415B9417600C4C54B /* GDataXMLNode.h in Sources */ = {isa = PBXBuildFile; fileRef = EAA6F00B15B93DD500C4C54B /* GDataXMLNode.h */; };
+		EAA6F01515B9417E00C4C54B /* AllTest.h in Sources */ = {isa = PBXBuildFile; fileRef = C389760515920C9B00426D92 /* AllTest.h */; };
+		EAA6F01615B9419A00C4C54B /* libxml2.2.7.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3C91941560DFBC00402AE8 /* libxml2.2.7.3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA6F01615B9419A00C4C54B /* libxml2.2.7.3.dylib in Frameworks */,
 				C38975FC15920C9B00426D92 /* SenTestingKit.framework in Frameworks */,
 				C38975FD15920C9B00426D92 /* UIKit.framework in Frameworks */,
 				C38975FE15920C9B00426D92 /* Foundation.framework in Frameworks */,
@@ -329,6 +333,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA6F01515B9417E00C4C54B /* AllTest.h in Sources */,
+				EAA6F01415B9417600C4C54B /* GDataXMLNode.h in Sources */,
 				C389760715920C9B00426D92 /* AllTest.m in Sources */,
 				EAA6F00E15B93DD500C4C54B /* GDataXMLNode.m in Sources */,
 				EAA6F00F15B93DD500C4C54B /* OCUnitToJUnitLogger.m in Sources */,
